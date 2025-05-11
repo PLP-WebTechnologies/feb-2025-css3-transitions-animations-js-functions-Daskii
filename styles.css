@@ -1,0 +1,19 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  #visualBox {
+    width: 120px;
+    height: 120px;
+    margin-top: 1.5rem;
+    background-color: #888;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out, background-color 0.3s ease;
+  }
+  
+  .animated {
+    transform: scale(1.3) rotate(180deg);
+  }
+  
